@@ -3,13 +3,13 @@
   <a href="#page-top"></a>
 </li>
 <li>
-  <a class="page-scroll" href="#services">Products</a>
+  <a class="page-scroll" href="<%= root_path %>#products">Products</a>
 </li>
 <li>
-  <a class="page-scroll" href="#team">Team</a>
+  <a class="page-scroll" href="<%= root_path %>#about">About</a>
 </li>
 <li>
-  <a class="page-scroll" href="#contact">Contact</a>
+  <a class="page-scroll" href="<%= root_path %>#contact">Contact</a>
 </li>
 <% if user_signed_in? %>
 <li><%= link_to 'Account', edit_user_registration_path %></li>

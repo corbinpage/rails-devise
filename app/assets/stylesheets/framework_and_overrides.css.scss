@@ -2,6 +2,16 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+ /*----- CP Edits-----*/
+
+footer {
+  border-top: #222222 solid 5px;
+}
+
+#user_remember_me {
+  margin-left: 0px; 
+}
+
 // // make all images responsive by default
 // img {
 //   @extend .img-responsive;

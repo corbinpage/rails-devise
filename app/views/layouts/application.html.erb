@@ -4,6 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= content_for?(:title) ? yield(:title) : "Rails Devise" %></title>
   <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Rails Devise" %>">
+  <%= favicon_link_tag 'favicon.ico' %>
   <%= stylesheet_link_tag 'application', media: 'all' %>
   <%= stylesheet_link_tag    "/assets/agency/css/agency.css", :media => "all" %>
   <!-- Custom Fonts -->
@@ -34,7 +35,7 @@
 
  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
  <%= javascript_include_tag "/assets/agency/js/classie.js" %>
- <%= javascript_include_tag "/assets/agency/js/cbpAnimatedHeader.min.js" %>
+ <%= javascript_include_tag "/assets/agency/js/cbpAnimatedHeader.js" %>
  <%= javascript_include_tag "/assets/agency/js/jqBootstrapValidation.js" %>
  <%= javascript_include_tag "/assets/agency/js/contact_me.js" %>
  <%= javascript_include_tag "/assets/agency/js/agency.js" %>
